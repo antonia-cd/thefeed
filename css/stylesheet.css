@@ -36,8 +36,8 @@ header{
 nav{
     background-color: #b2eef3;
     width: 300px;
-    top: 350 px;
-    left: 20px;
+    top: 300px;
+    left: 5px;
     font-family: 'Rubik Vinyl', cursive;
     position: fixed;
 }
@@ -45,7 +45,6 @@ nav{
 main{
     width: 800px;
     margin-left: 350px;
-    background-color: white;
 }
 
 #welcometomyfeed{
@@ -55,7 +54,7 @@ main{
     font-family: 'Rubik Vinyl', cursive;
     color: white;
     padding: 5px;
-    position: fixed;
+ 
 }
 
 #thefeedstarts{
@@ -84,9 +83,7 @@ footer{
     margin-left: 250px;
     
 }
-.centeredimg:hover{
-    background-color: #e93e17;
-}
+
 
 #snakeeating{
     margin-top: 100px;
@@ -99,4 +96,43 @@ footer{
 
 #indexheader:hover{
     background-color: #e93e17;
+    border: #e93e17;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.leftimgs{
+    margin-left: 40px;
+}
+
+section>img{
+    border:#f5ac1c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius:2%;
+    padding: 5px;
+    margin: 10px;
+}
+
+section{
+    border: #e93e17;
+    border-style: solid;
+    padding: 15px;
+    border-width:8px;
+    border-radius:10px;
+    background-color: white;
+    margin:10px;
+}
+
+section>img:hover{
+    opacity: .75;
+}
+
+section>p{
+padding: 10px;
+border: #1d43ef;
+border-style: solid;
+border: 3px;
+background-color: aliceblue;
+text-align: center;
 }
