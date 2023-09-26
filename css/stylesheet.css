@@ -9,6 +9,7 @@ orange: f5ac1c
 
 body{
     background-color: #b2eef3;
+    background-image: url("backgroundimage4.png");
 }
 
 p{
@@ -34,7 +35,7 @@ header{
 }
 
 nav{
-    background-color: #b2eef3;
+
     width: 300px;
     top: 300px;
     left: 5px;
@@ -45,6 +46,54 @@ nav{
 main{
     width: 800px;
     margin-left: 350px;
+}
+
+footer{
+    width: 300px;
+    background-color: #f5ac1c;
+    height: 50px;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    position: fixed;
+    bottom: 5px; 
+    left: 5px; 
+    text-decoration: none;
+}
+
+section{
+    border-style: solid ;
+    padding: 15px;
+    border-width: 5px;
+    border-radius:4px;
+    background-color: white;
+    margin:10px;
+    text-align: center;
+}
+
+section p{
+    padding: 10px;
+    border: #1d43ef;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+
+section>img{
+    border:#f5ac1c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius:2%;
+    padding: 5px;
+    margin: 10px;
+}
+
+section:hover{
+    border: #e93e17;
+    border-width: 10px;
+    border-style: solid;
 }
 
 #welcometomyfeed{
@@ -60,30 +109,10 @@ main{
 #thefeedstarts{
     font-family: 'Rubik Vinyl', cursive;
     color: #1d43ef;
-    border-style: solid;
-    border-color: #f5ac1c;
-    border-width: 5px;
     width: 300px;
     text-align: center;
+    margin: auto;
 }
-
-footer{
-    width: 300px;
-    background-color: #f5ac1c;
-    height: 50px;
-    color: black;
-    font-family: 'Rubik Vinyl', cursive;
-    position: fixed;
-    bottom: 5px; 
-    left: 5px; 
-}
-
-
-.centeredimg{
-    margin-left: 250px;
-    
-}
-
 
 #snakeeating{
     margin-top: 100px;
@@ -102,37 +131,15 @@ footer{
 }
 
 .leftimgs{
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
-section>img{
-    border:#f5ac1c;
-    border-style: solid;
-    border-width: 5px;
-    border-radius:2%;
-    padding: 5px;
-    margin: 10px;
-}
 
-section{
-    border: #e93e17;
-    border-style: solid;
-    padding: 15px;
-    border-width:8px;
-    border-radius:10px;
-    background-color: white;
-    margin:10px;
-}
+
+
 
 section>img:hover{
-    opacity: .75;
+    background-color:#f5ac1c;
 }
 
-section>p{
-padding: 10px;
-border: #1d43ef;
-border-style: solid;
-border: 3px;
-background-color: aliceblue;
-text-align: center;
-}
+
