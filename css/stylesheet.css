@@ -9,7 +9,6 @@ orange: f5ac1c
 
 body{
     background-color: #b2eef3;
-    background-image: url("backgroundimage4.png");
 }
 
 p{
@@ -41,6 +40,8 @@ nav{
     left: 5px;
     font-family: 'Rubik Vinyl', cursive;
     position: fixed;
+    color: white;
+    text-decoration: none;
 }
 
 main{
@@ -65,9 +66,9 @@ section{
     padding: 15px;
     border-width: 5px;
     border-radius:4px;
-    background-color: white;
     margin:10px;
     text-align: center;
+    background-color: white;
 }
 
 section p{
@@ -97,13 +98,26 @@ section:hover{
 }
 
 #welcometomyfeed{
-    height: 60px;
+    height: 30px;
     width: 290px;
     background-color: #1d43ef;
     font-family: 'Rubik Vinyl', cursive;
     color: white;
     padding: 5px;
- 
+}
+
+#friendslist{
+    width: 290px;
+    background-color: #1d43ef;
+    font-family: 'Rubik Vinyl', cursive;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#friendslist p{
+    color: white;
+    text-decoration: none;
 }
 
 #thefeedstarts{
@@ -133,10 +147,6 @@ section:hover{
 .leftimgs{
     margin-left: 15px;
 }
-
-
-
-
 
 section>img:hover{
     background-color:#f5ac1c;
